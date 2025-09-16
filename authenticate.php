@@ -1,7 +1,7 @@
 <?php
-$correct_username = 'ctf_user';
-$correct_password = 'G0tcha!y0uF0undMe';
-$flag = 'CTF{Y0u_Ar3_A_H1DD3N_C0MM3NT_F1nD3R}';
+$correct_username = 'arjuna_karmayogi';
+$correct_password = 'dharma-yajna-108';
+$flag = 'cbc{Y0u_Ar3_A_H1DD3N_C0MM3NT_F1nD3R}';
 
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     $submitted_username = $_POST['username'] ?? '';
